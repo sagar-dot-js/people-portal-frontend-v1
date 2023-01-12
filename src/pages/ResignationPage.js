@@ -1,12 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Button from "../components/Button";
+import resignation from "../assets/Resignation.png";
 
 const ResignationPage = () => {
   return (
-    <div className="policies">
-      <div className="border resignation-header  h-[364px]  custom-px flex items-center">
-        <div className=" w-[700px] flex flex-col gap-2">
+    <div className="h-full relative">
+      <div className="border h-full  flex  ">
+        <div className=" h-full w-full">
+          {" "}
+          <img src={resignation} />{" "}
+        </div>
+        <div className=" w-[700px] h-[300px] mt-[81px] flex flex-col gap-2  absolute left-[100px] ">
           <p className="text-[#1765DC] text-[32px]">Resignation</p>
           <p className="text-[#8CB5F3] text-[16px]">
             Mirats Insights Pvt Ltd (Mumbai, India){" "}
@@ -28,7 +33,7 @@ const ResignationPage = () => {
         </div>
       </div>
       <div>
-        <div className="custom-px  mt-[51px]  flex flex-col gap-5">
+        {/* <div className="custom-px  mt-[51px]  flex flex-col gap-5">
           <h1 className="text-[#1765DC] text-[24px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit !
           </h1>
@@ -153,7 +158,7 @@ const ResignationPage = () => {
               </ol>
             </li>
           </ol>
-        </div>
+        </div> */}
       </div>
     </div>
   );

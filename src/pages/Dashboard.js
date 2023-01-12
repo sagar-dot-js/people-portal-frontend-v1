@@ -119,7 +119,6 @@ const Dashboard = () => {
                 customWidth="200px"
                 cardHeader={item.title}
                 cardBody={item.subTitle}
-                className="transition-transform duration-300 hover:scale-105"
               />
             );
           })}

@@ -289,13 +289,9 @@ const Attendance = () => {
           <Dropdown dropdownText="Production Type" options={ProductionType} />
           <Dropdown dropdownText="Overtime" options={overtimeData} />
 
-          <Link
-            color="#1765DC"
-            border="underline"
-            href="https://scalablecss.com/styled-components-global-styles/"
-          >
+          <button className="border-b-[2px] border-[#1765DC] text-[#1765DC] font-[600]">
             Clear Filters
-          </Link>
+          </button>
         </div>
       </div>
       {/*  */}

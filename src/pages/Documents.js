@@ -79,7 +79,7 @@ const Documents = () => {
                   variant="filled"
                   className="w-[50%]"
                 >
-                  View
+                  Choose File
                 </Button>
                 <Button
                   onClick={(e) => console.log("its working", e)}

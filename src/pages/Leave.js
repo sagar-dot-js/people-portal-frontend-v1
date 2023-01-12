@@ -309,13 +309,9 @@ const Leave = () => {
           <Dropdown dropdownText="Year" options={year} />
           <Dropdown dropdownText="Leave type" options={leavetype} />
           <Dropdown dropdownText="Status" options={status} />
-          <Link
-            color="#1765DC"
-            border="underline"
-            href="https://scalablecss.com/styled-components-global-styles/"
-          >
-            Clear Filter
-          </Link>
+          <button className="border-b-[2px] border-[#1765DC] text-[#1765DC] font-[600]">
+            Clear Filters
+          </button>
         </div>
       </div>
       {/*  */}
@@ -412,7 +408,7 @@ const Leave = () => {
             <Calendar />
           </div>
           <div className="border w-[800px] justify-center items-center p-10 rounded-[24px]  ">
-            <p className="text-[24px] mb-5">List of Holiday</p>
+            <p className="text-[24px] mb-5 ">List of Holiday</p>
             <UpcommingHolidays />
           </div>
         </div>
